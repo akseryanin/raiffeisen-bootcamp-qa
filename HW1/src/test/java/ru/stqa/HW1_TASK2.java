@@ -25,13 +25,13 @@ public class HW1_TASK2
     @Test
     public void loginAdmin() {
         try {
-            driver.get("http://localhost/litecart/");
-            WebElement email = driver.findElement(By.name("email"));
-            email.sendKeys("sasha.seryanin@yandex.ru");
+            driver.get("http://localhost/litecart/admin");
+            WebElement email = driver.findElement(By.name("username"));
+            email.sendKeys("admin");
             WebElement pass = driver.findElement(By.name("password"));
-            pass.sendKeys("1234");
+            pass.sendKeys("admin");
             driver.findElement(By.name("login")).click();
-            wait.until(titleIs("sasha.seryanin@yandex.ru | My Store"));
+            wait.until(titleIs("My Store"));
 
         }
         catch (Exception e) {
