@@ -1,0 +1,2 @@
+ru/stqa/App.java
+ ru.stqa.App
