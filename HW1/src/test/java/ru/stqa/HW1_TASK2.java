@@ -31,7 +31,7 @@ public class HW1_TASK2
             WebElement pass = driver.findElement(By.name("password"));
             pass.sendKeys("1234");
             driver.findElement(By.name("login")).click();
-            wait.until(titleIs("admin | Store"));
+            wait.until(titleIs("sasha.seryanin@yandex.ru | My Store"));
 
         }
         catch (Exception e) {
