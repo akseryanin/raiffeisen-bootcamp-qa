@@ -1,2 +1,4 @@
-ru/stqa/AppTest.java
- ru.stqa.AppTest
+ru/stqa/HW1_TASK1.java
+ ru.stqa.HW1_TASK1
+ru/stqa/HW1_TASK2.java
+ ru.stqa.HW1_TASK2
