@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ru.stqa.HW1_TASK2" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-11-10T23:49:38" hostname="LAPTOP-MEP4A30L" time="8.824">
+<testsuite name="ru.stqa.HW1_TASK2" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-11-11T00:24:16" hostname="LAPTOP-MEP4A30L" time="8.513">
   <properties/>
-  <testcase name="loginAdmin" classname="ru.stqa.HW1_TASK2" time="8.824"/>
+  <testcase name="loginAdmin" classname="ru.stqa.HW1_TASK2" time="8.513"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 42555
+  <system-err><![CDATA[Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 5302
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-нояб. 11, 2020 2:49:39 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+нояб. 11, 2020 3:24:17 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
-нояб. 11, 2020 2:49:42 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+нояб. 11, 2020 3:24:20 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Falling back to original OSS JSON Wire Protocol.
-нояб. 11, 2020 2:49:45 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+нояб. 11, 2020 3:24:22 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 ]]></system-err>
 </testsuite>
