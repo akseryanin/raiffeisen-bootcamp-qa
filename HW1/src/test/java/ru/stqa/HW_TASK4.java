@@ -15,6 +15,7 @@ public class HW_TASK4  extends TestBase{
         driver.get("http://localhost/litecart/en/");
 
         // найдем азделы Most Popular, Campaigns, Latest Products где-нибудь на странице, box -> content -> product
+        //а здесь уже можем сохранить в объекты, потому что изменений страницы не будет
         List<WebElement> products = driver.findElements(By.cssSelector(".box .content .product"));
 
         for (WebElement element : products){
