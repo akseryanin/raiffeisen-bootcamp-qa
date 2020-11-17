@@ -18,7 +18,7 @@ public class TestBase {
     public void start()
     {
         driver = new ChromeDriver();
-        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        //driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         wait = new WebDriverWait(driver, 10);
     }
     @After
@@ -30,9 +30,11 @@ public class TestBase {
 
     public boolean isElementPresent(By locator) {
         try {
-            driver.findElement(locator);
+            //ждем пока найдется элемент, если нет, вылетит исключение
+            wait.until((WebDriver d) -> d.findElement(locator));
             return true;
-        } catch (NoSuchElementException ex) {
+        }
+        catch (NoSuchElementException ex) {
             return false;
         }
     }
