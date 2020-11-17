@@ -1,4 +1,8 @@
-ru/stqa/HW1_TASK1.java
- ru.stqa.HW1_TASK1
 ru/stqa/HW1_TASK2.java
  ru.stqa.HW1_TASK2
+ru/stqa/HW1_TASK1.java
+ ru.stqa.HW1_TASK1
+ru/stqa/TestBase.java
+ ru.stqa.TestBase
+ru/stqa/HW_TASK3.java
+ ru.stqa.HW_TASK3
