@@ -31,11 +31,19 @@ public class TestBase {
     public boolean isElementPresent(By locator) {
         try {
             //ждем пока найдется элемент, если нет, вылетит исключение
-            wait.until((WebDriver d) -> d.findElement(locator));
+            driver.findElement(locator);
             return true;
         }
         catch (NoSuchElementException ex) {
             return false;
+        }
+    }
+    public void sleep(int n)
+    {
+        try {
+            Thread.sleep(n);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
         }
     }
 

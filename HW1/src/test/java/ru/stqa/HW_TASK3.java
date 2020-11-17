@@ -18,6 +18,7 @@ public class HW_TASK3 extends TestBase
         driver.findElement(By.name("username")).sendKeys("admin");
         driver.findElement(By.name("password")).sendKeys("admin");
         driver.findElement(By.name("login")).click();
+        sleep(500);
 
         //найдем в меню все секции li
         int countSections = driver.findElements(By.cssSelector("#box-apps-menu > li")).size();
@@ -30,6 +31,7 @@ public class HW_TASK3 extends TestBase
 
             //кликнем по секции
             driver.findElement(By.cssSelector(sectionLocator)).click();
+            sleep(500);
 
             //Проверим существует ли заголовок на странице
             assertTrue(isElementPresent(By.cssSelector(locatorTitle)));
@@ -47,6 +49,7 @@ public class HW_TASK3 extends TestBase
 
                 //найдем элемент через DOM и по нему кликнем
                 section.findElement(By.cssSelector("li:nth-child("+j+")")).click();
+                sleep(500);
 
                 //проверим есть ли заголовок на странице
                 assertTrue(isElementPresent(By.cssSelector(locatorTitle)));
