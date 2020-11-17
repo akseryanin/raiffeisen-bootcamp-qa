@@ -14,23 +14,12 @@ public class HW_TASK4  extends TestBase{
     {
         driver.get("http://localhost/litecart/en/");
 
-        // Раздел Recently Viewed ================================================
-        /// так как при загрузке страницы этот блок будет пустой
-        /// можно этот раздел и опустить
+        // найдем азделы Most Popular, Campaigns, Latest Products где-нибудь на странице, box -> content -> product
+        List<WebElement> products = driver.findElements(By.cssSelector(".box .content .product"));
 
-        List<WebElement> recentProducts = driver.findElements(By.cssSelector("#box-recently-viewed-products li"));
-
-        /*for(WebElement element:recentProducts){
-            assertTrue(isOneElementPresent(element, By.cssSelector(".sticker")));
+        for (WebElement element : products){
+            //где нибудь внутри найденного элемента найдем класс stickers
+            assertTrue(element.findElements(By.cssSelector(".sticker")).size() == 1);
         }
-        // Раздел Recently Viewed ===============================================
-
-
-        // Разделы Most Popular, Campaigns, Latest Products
-        List<WebElement> products = driver.findElements(By.cssSelector(".content .box .product"));
-
-        for(WebElement element:products){
-            assertTrue(isOneElementPresent(element, By.cssSelector(".sticker")));
-        }*/
     }
 }

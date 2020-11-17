@@ -23,9 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf4ac5e2-1fc1-43d4-b6ac-deda4f353847" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/HW_TASK4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/HW_TASK3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/HW_TASK3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/HW_TASK4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/HW_TASK4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +91,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3505747" />
   </component>
-  <component name="RunManager" selected="Gradle.HW_TASK3.clickedAllSections">
+  <component name="RunManager" selected="Gradle.HW_TASK4.checkStickers">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -163,12 +162,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="HW_TASK3.loginAdmin" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="HW_TASK4.checkStickers" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;ru.stqa.HW_TASK3.loginAdmin&quot;" />
+        <option name="scriptParameters" value="--tests &quot;ru.stqa.HW_TASK4.checkStickers&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -200,11 +199,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.HW_TASK4.checkStickers" />
         <item itemvalue="Gradle.HW_TASK3.clickedAllSections" />
         <item itemvalue="Gradle.HW_TASK3" />
         <item itemvalue="Gradle.HW1_TASK2" />
         <item itemvalue="JUnit.HW_TASK3.clickedAllSections" />
-        <item itemvalue="Gradle.HW_TASK3.loginAdmin" />
       </list>
     </recent_temporary>
   </component>
@@ -220,7 +219,7 @@
       <workItem from="1605212566445" duration="82000" />
       <workItem from="1605310915118" duration="2699000" />
       <workItem from="1605549230796" duration="11545000" />
-      <workItem from="1605572932211" duration="6447000" />
+      <workItem from="1605572932211" duration="7381000" />
     </task>
     <servers />
   </component>
@@ -248,22 +247,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1605573296504" />
-    <state width="1237" height="165" key="GridCell.Tab.0.bottom" timestamp="1605580021446">
+    <state width="1237" height="165" key="GridCell.Tab.0.bottom" timestamp="1605580727230">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="165" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1605580021446" />
-    <state width="1237" height="165" key="GridCell.Tab.0.center" timestamp="1605580021446">
+    <state width="1237" height="165" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1605580727230" />
+    <state width="1237" height="165" key="GridCell.Tab.0.center" timestamp="1605580727230">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="165" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1605580021446" />
-    <state width="1237" height="165" key="GridCell.Tab.0.left" timestamp="1605580021445">
+    <state width="1237" height="165" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1605580727230" />
+    <state width="1237" height="165" key="GridCell.Tab.0.left" timestamp="1605580727230">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="165" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1605580021445" />
-    <state width="1237" height="165" key="GridCell.Tab.0.right" timestamp="1605580021446">
+    <state width="1237" height="165" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1605580727230" />
+    <state width="1237" height="165" key="GridCell.Tab.0.right" timestamp="1605580727230">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="165" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1605580021446" />
+    <state width="1237" height="165" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1605580727230" />
     <state width="1237" height="234" key="GridCell.Tab.1.bottom" timestamp="1605572915781">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
