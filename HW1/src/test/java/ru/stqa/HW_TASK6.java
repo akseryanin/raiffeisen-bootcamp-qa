@@ -15,8 +15,7 @@ public class HW_TASK6 extends TestBase{
         // товар на главной странице
         WebElement product = driver.findElement(By.cssSelector("#box-campaigns .product"));
 
-        //ссылка и имя
-        String Link = product.findElement(By.cssSelector(".link")).getAttribute("href");
+        //имя
         String Name = product.findElement(By.cssSelector(".name")).getAttribute("textContent");
 
         WebElement regularPrice = product.findElement(By.cssSelector(".regular-price"));
