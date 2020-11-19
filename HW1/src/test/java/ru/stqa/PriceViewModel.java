@@ -6,9 +6,7 @@ import java.awt.*;
 
 public class PriceViewModel {
     public ColorViewModel color;
-    public String name;
     public String price;
-    public String link;
     public boolean isFat;
     public String Class;
     public String tag;
@@ -20,6 +18,10 @@ public class PriceViewModel {
         tag = element.getAttribute("tagName");
         String elementColorStr = element.getCssValue("color");
         color = parseColor(elementColorStr);
+        String elementFontSizeStr = element.getCssValue("font-size");
+        fontSize = Double.parseDouble(elementFontSizeStr.substring(0, elementFontSizeStr.length() - 2));
+        String fat = element.getCssValue("font-weight");
+        isFat = element.getCssValue("font-weight").compareTo("700") == 0;
     }
 
     private ColorViewModel parseColor(String colors){

@@ -23,11 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf4ac5e2-1fc1-43d4-b6ac-deda4f353847" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/FirefoxTask6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/HW_TASK6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/IETask6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/PriceViewModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/HW_TASK6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/HW_TASK6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/PriceViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/PriceViewModel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +92,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3505747" />
   </component>
-  <component name="RunManager" selected="Gradle.HW_TASK6.checkProduct">
+  <component name="RunManager" selected="Gradle.FirefoxTask6">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -205,9 +203,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.HW_TASK6.checkProduct" />
         <item itemvalue="Gradle.FirefoxTask6" />
         <item itemvalue="Gradle.IETask6" />
+        <item itemvalue="Gradle.HW_TASK6.checkProduct" />
         <item itemvalue="Gradle.HW_TASK6" />
         <item itemvalue="Gradle.HW1_TASK1" />
       </list>
@@ -227,7 +225,7 @@
       <workItem from="1605549230796" duration="11545000" />
       <workItem from="1605572932211" duration="8848000" />
       <workItem from="1605717060800" duration="775000" />
-      <workItem from="1605718984755" duration="18382000" />
+      <workItem from="1605718984755" duration="20093000" />
     </task>
     <servers />
   </component>
@@ -255,38 +253,38 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1605718945483" />
-    <state width="1237" height="231" key="GridCell.Tab.0.bottom" timestamp="1605747582574">
+    <state width="1237" height="231" key="GridCell.Tab.0.bottom" timestamp="1605750293522">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="231" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1605747582574" />
-    <state width="1237" height="231" key="GridCell.Tab.0.center" timestamp="1605747582574">
+    <state width="1237" height="231" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1605750293522" />
+    <state width="1237" height="231" key="GridCell.Tab.0.center" timestamp="1605750293522">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="231" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1605747582574" />
-    <state width="1237" height="231" key="GridCell.Tab.0.left" timestamp="1605747582574">
+    <state width="1237" height="231" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1605750293522" />
+    <state width="1237" height="231" key="GridCell.Tab.0.left" timestamp="1605750293522">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="231" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1605747582574" />
-    <state width="1237" height="231" key="GridCell.Tab.0.right" timestamp="1605747582574">
+    <state width="1237" height="231" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1605750293522" />
+    <state width="1237" height="231" key="GridCell.Tab.0.right" timestamp="1605750293522">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="231" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1605747582574" />
-    <state width="1237" height="231" key="GridCell.Tab.1.bottom" timestamp="1605747582575">
+    <state width="1237" height="231" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1605750293522" />
+    <state width="1237" height="231" key="GridCell.Tab.1.bottom" timestamp="1605750293523">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="231" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1605747582575" />
-    <state width="1237" height="231" key="GridCell.Tab.1.center" timestamp="1605747582574">
+    <state width="1237" height="231" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1605750293523" />
+    <state width="1237" height="231" key="GridCell.Tab.1.center" timestamp="1605750293522">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="231" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1605747582574" />
-    <state width="1237" height="231" key="GridCell.Tab.1.left" timestamp="1605747582574">
+    <state width="1237" height="231" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1605750293522" />
+    <state width="1237" height="231" key="GridCell.Tab.1.left" timestamp="1605750293522">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="231" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1605747582574" />
-    <state width="1237" height="231" key="GridCell.Tab.1.right" timestamp="1605747582574">
+    <state width="1237" height="231" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1605750293522" />
+    <state width="1237" height="231" key="GridCell.Tab.1.right" timestamp="1605750293523">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="231" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1605747582574" />
+    <state width="1237" height="231" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1605750293523" />
     <state x="121" y="0" key="SettingsEditor" timestamp="1605048095930">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -301,13 +299,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/HW_TASK6.java</url>
-          <line>78</line>
-          <option name="timeStamp" value="5" />
+          <line>47</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/HW_TASK6.java</url>
-          <line>55</line>
-          <option name="timeStamp" value="9" />
+          <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/PriceViewModel.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
