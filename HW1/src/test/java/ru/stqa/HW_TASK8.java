@@ -30,7 +30,7 @@ public class HW_TASK8 extends TestBase{
 
         //Вкладка General
         driver.findElement(By.cssSelector("[name=status][value='1']")).click();
-        sleep(500);
+        sleep(5000);
         driver.findElement(By.name("name[en]")).sendKeys("Goose");
         driver.findElement(By.name("code")).sendKeys("123");
         sleep(500);
