@@ -24,8 +24,8 @@ public class HW_TASK8 extends TestBase{
 
         // General
         driver.findElement(By.cssSelector("[name=status][value='1']")).click();
-        driver.findElement(By.cssSelector("[name='name[en]']")).sendKeys("New duck");
-        driver.findElement(By.cssSelector("[name=code]")).sendKeys("123");
+        driver.findElement(By.name("[name[en]")).sendKeys("New duck");
+        driver.findElement(By.name("code")).sendKeys("123");
         driver.findElement(By.cssSelector("[data-name='Rubber Ducks']")).click();
         driver.findElement(By.cssSelector("[value='1-2']")).click();
 
