@@ -22,13 +22,13 @@ public class HW_TASK8 extends TestBase{
         wait.until(titleIs("My Store"));
         driver.get("http://localhost/litecart/admin/?app=catalog&doc=catalog");
 
-        int k = count(By.cssSelector(".dataTable tr.row"));
+        int count = driver.findElements(By.cssSelector(".dataTable tr.row")).size();
 
-        // нажимаем кнопку создания
+        //нажимаем кнопку создания
         driver.findElement(By.cssSelector("#content a.button:last-child")).click();
         wait.until(presenceOfElementLocated(By.cssSelector(".active a[href='#tab-general']")));
 
-        // General
+        //Вкладка General
         driver.findElement(By.cssSelector("[name=status][value='1']")).click();
         sleep(500);
         driver.findElement(By.name("name[en]")).sendKeys("Goose");
@@ -45,7 +45,7 @@ public class HW_TASK8 extends TestBase{
         driver.findElement(By.name("date_valid_to")).sendKeys("31.12.2020");
 
 
-        // Information
+        //Вкладка Information
         driver.findElement(By.cssSelector("[href='#tab-information']")).click();
         wait.until(presenceOfElementLocated(By.cssSelector(".active a[href='#tab-information']")));
 
@@ -59,7 +59,7 @@ public class HW_TASK8 extends TestBase{
         driver.findElement(By.name("meta_description[en]")).sendKeys("new goose");
 
         sleep(500);
-        // Prices
+        //Вкладка Prices
         driver.findElement(By.cssSelector("[href='#tab-prices']")).click();
         wait.until(presenceOfElementLocated(By.cssSelector(".active a[href='#tab-prices']")));
 
@@ -69,14 +69,14 @@ public class HW_TASK8 extends TestBase{
         driver.findElement(By.name("prices[USD]")).sendKeys("60");
         driver.findElement(By.name("prices[EUR]")).sendKeys("50");
 
-        // сохранение
+        //сохранение
         driver.findElement(By.name("save")).click();
         wait.until(presenceOfElementLocated(By.className("dataTable")));
 
         // получаем количество строк после добавления товара
-        int kNew = count(By.cssSelector(".dataTable tr.row"));
+        int countNew = driver.findElements(By.cssSelector(".dataTable tr.row")).size();
 
-        assertEquals(k+1, kNew);
+        assertEquals(count + 1, countNew);
     }
 
     public void selectByValue(By locator, String value){
@@ -91,12 +91,6 @@ public class HW_TASK8 extends TestBase{
         WebElement field = driver.findElement(locator);
         field.clear();
         field.sendKeys(value);
-
-    }
-
-    public int count(By locator){
-
-        return driver.findElements(locator).size();
 
     }
 }

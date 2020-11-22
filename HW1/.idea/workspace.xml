@@ -22,7 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf4ac5e2-1fc1-43d4-b6ac-deda4f353847" name="Default Changelist" comment="">
+    <list default="true" id="cf4ac5e2-1fc1-43d4-b6ac-deda4f353847" name="Default Changelist" comment="задание 12">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/HW_TASK8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/HW_TASK8.java" afterDir="false" />
     </list>
@@ -227,8 +227,16 @@
       <workItem from="1605920123477" duration="5552000" />
       <workItem from="1605925852604" duration="1294000" />
       <workItem from="1605927956986" duration="1129000" />
-      <workItem from="1605929110314" duration="7685000" />
+      <workItem from="1605929110314" duration="8151000" />
     </task>
+    <task id="LOCAL-00001" summary="задание 12">
+      <created>1606088900736</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606088900736</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,6 +254,10 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="задание 12" />
+    <option name="LAST_COMMIT_MESSAGE" value="задание 12" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="121" y="0" key="#Project_Structure" timestamp="1605038444056">
       <screen x="0" y="0" width="1280" height="680" />
@@ -259,22 +271,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1605718945483" />
-    <state width="1237" height="231" key="GridCell.Tab.0.bottom" timestamp="1606088539004">
+    <state width="1237" height="211" key="GridCell.Tab.0.bottom" timestamp="1606088811629">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="231" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1606088539004" />
-    <state width="1237" height="231" key="GridCell.Tab.0.center" timestamp="1606088539004">
+    <state width="1237" height="211" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1606088811629" />
+    <state width="1237" height="211" key="GridCell.Tab.0.center" timestamp="1606088811629">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="231" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1606088539004" />
-    <state width="1237" height="231" key="GridCell.Tab.0.left" timestamp="1606088539004">
+    <state width="1237" height="211" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1606088811629" />
+    <state width="1237" height="211" key="GridCell.Tab.0.left" timestamp="1606088811629">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="231" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1606088539004" />
-    <state width="1237" height="231" key="GridCell.Tab.0.right" timestamp="1606088539004">
+    <state width="1237" height="211" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1606088811629" />
+    <state width="1237" height="211" key="GridCell.Tab.0.right" timestamp="1606088811629">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="231" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1606088539004" />
+    <state width="1237" height="211" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1606088811629" />
     <state width="1237" height="231" key="GridCell.Tab.1.bottom" timestamp="1606088539005">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -303,16 +315,5 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1605921908682" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/HW_TASK8.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
