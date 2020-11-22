@@ -37,17 +37,17 @@ public class HW_TASK7 extends TestBase{
         //переходим на страницу регистрации
         driver.findElement(By.cssSelector("#box-account-login a")).click();
 
-        driver.findElement(By.cssSelector("[name='tax_id']")).sendKeys("123456789");
-        driver.findElement(By.cssSelector("[name='company']")).sendKeys("HSE");
+        driver.findElement(By.name("tax_id")).sendKeys("123456789");
+        driver.findElement(By.name("company")).sendKeys("HSE");
         sleep(500);
-        driver.findElement(By.cssSelector("[name='firstname']")).sendKeys("Alexander");
-        driver.findElement(By.cssSelector("[name='lastname']")).sendKeys("Seryanin");
+        driver.findElement(By.name("firstname")).sendKeys("Alexander");
+        driver.findElement(By.name("lastname")).sendKeys("Seryanin");
         sleep(500);
-        driver.findElement(By.cssSelector("[name='address1']")).sendKeys("Moscow Polyani 7");
-        driver.findElement(By.cssSelector("[name='address2']")).sendKeys("Moscow ul Skobelebckayz d 1");
+        driver.findElement(By.name("address1")).sendKeys("Moscow Polyani 7");
+        driver.findElement(By.name("address2")).sendKeys("Moscow ul Skobelebckayz d 1");
         sleep(500);
-        driver.findElement(By.cssSelector("[name='postcode']")).sendKeys("11111");
-        driver.findElement(By.cssSelector("[name='city']")).sendKeys("Moscow");
+        driver.findElement(By.name("postcode")).sendKeys("11111");
+        driver.findElement(By.name("city")).sendKeys("Moscow");
         sleep(500);
         Select country = new Select(driver.findElement(By.cssSelector("select[name=country_code]")));
         country.selectByValue("US");
@@ -55,23 +55,23 @@ public class HW_TASK7 extends TestBase{
         Select zone = new Select(driver.findElement(By.cssSelector("select[name=zone_code]")));
         zone.selectByValue("AK");
         sleep(500);
-        driver.findElement(By.cssSelector("[name=email]")).sendKeys(email);
-        driver.findElement(By.cssSelector("[name=phone]")).sendKeys("+19268472679");
+        driver.findElement(By.name("email")).sendKeys(email);
+        driver.findElement(By.name("phone")).sendKeys("+19268472679");
         sleep(500);
-        driver.findElement(By.cssSelector("[name=newsletter]")).click();
+        driver.findElement(By.name("newsletter")).click();
         sleep(500);
-        driver.findElement(By.cssSelector("[name=password]")).sendKeys(password);
-        driver.findElement(By.cssSelector("[name=confirmed_password]")).sendKeys(password);
-        driver.findElement(By.cssSelector("[name=create_account]")).click();
+        driver.findElement(By.name("password")).sendKeys(password);
+        driver.findElement(By.name("confirmed_password")).sendKeys(password);
+        driver.findElement(By.name("create_account")).click();
         //найдем кнопку logout
         wait.until(presenceOfElementLocated(By.cssSelector("#box-account li:last-child")));
     }
 
     private void login(String email,String password){
 
-        driver.findElement(By.cssSelector("[name=email]")).sendKeys(email);
-        driver.findElement(By.cssSelector("[name=password]")).sendKeys(password);
-        driver.findElement(By.cssSelector("[name=login]")).click();
+        driver.findElement(By.name("email")).sendKeys(email);
+        driver.findElement(By.name("password")).sendKeys(password);
+        driver.findElement(By.name("login")).click();
         wait.until(presenceOfElementLocated(By.cssSelector("#box-account li:last-child")));
 
     }
@@ -79,7 +79,7 @@ public class HW_TASK7 extends TestBase{
     private void logout(){
 
         driver.findElement(By.cssSelector("#box-account li:last-child a")).click();
-        wait.until(presenceOfElementLocated(By.cssSelector("[name=email]")));
+        wait.until(presenceOfElementLocated(By.name("email")));
     }
 
 }

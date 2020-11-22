@@ -23,11 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf4ac5e2-1fc1-43d4-b6ac-deda4f353847" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/HW_TASK7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/HW_TASK8.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/HW_TASK6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/HW_TASK6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/HW_TASK7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/HW_TASK7.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -231,7 +229,7 @@
       <workItem from="1605920123477" duration="5552000" />
       <workItem from="1605925852604" duration="1294000" />
       <workItem from="1605927956986" duration="1129000" />
-      <workItem from="1605929110314" duration="2484000" />
+      <workItem from="1605929110314" duration="4740000" />
     </task>
     <servers />
   </component>
@@ -263,22 +261,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1605718945483" />
-    <state width="1237" height="211" key="GridCell.Tab.0.bottom" timestamp="1606071873056">
+    <state width="1237" height="211" key="GridCell.Tab.0.bottom" timestamp="1606085643121">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="211" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1606071873056" />
-    <state width="1237" height="211" key="GridCell.Tab.0.center" timestamp="1606071873056">
+    <state width="1237" height="211" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1606085643121" />
+    <state width="1237" height="211" key="GridCell.Tab.0.center" timestamp="1606085643121">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="211" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1606071873056" />
-    <state width="1237" height="211" key="GridCell.Tab.0.left" timestamp="1606071873056">
+    <state width="1237" height="211" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1606085643121" />
+    <state width="1237" height="211" key="GridCell.Tab.0.left" timestamp="1606085643121">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="211" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1606071873056" />
-    <state width="1237" height="211" key="GridCell.Tab.0.right" timestamp="1606071873056">
+    <state width="1237" height="211" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1606085643121" />
+    <state width="1237" height="211" key="GridCell.Tab.0.right" timestamp="1606085643121">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="211" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1606071873056" />
+    <state width="1237" height="211" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1606085643121" />
     <state width="1237" height="231" key="GridCell.Tab.1.bottom" timestamp="1606070605743">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
