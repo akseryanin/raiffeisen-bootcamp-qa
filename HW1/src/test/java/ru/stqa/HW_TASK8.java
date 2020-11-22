@@ -7,7 +7,10 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+import static org.junit.Assert.assertEquals;
 import static org.openqa.selenium.support.ui.ExpectedConditions.presenceOfElementLocated;
+import static org.openqa.selenium.support.ui.ExpectedConditions.titleIs;
 
 import java.io.File;
 
@@ -15,70 +18,65 @@ public class HW_TASK8 extends TestBase{
     @Test
     public void addNewProduct(){
         loginAdmin();
+
+        wait.until(titleIs("My Store"));
         driver.get("http://localhost/litecart/admin/?app=catalog&doc=catalog");
 
         int k = count(By.cssSelector(".dataTable tr.row"));
 
         // нажимаем кнопку создания
         driver.findElement(By.cssSelector("#content a.button:last-child")).click();
+        wait.until(presenceOfElementLocated(By.cssSelector(".active a[href='#tab-general']")));
 
         // General
         driver.findElement(By.cssSelector("[name=status][value='1']")).click();
-        driver.findElement(By.name("[name[en]")).sendKeys("New duck");
+        sleep(500);
+        driver.findElement(By.name("name[en]")).sendKeys("Goose");
         driver.findElement(By.name("code")).sendKeys("123");
+        sleep(500);
         driver.findElement(By.cssSelector("[data-name='Rubber Ducks']")).click();
         driver.findElement(By.cssSelector("[value='1-2']")).click();
 
-        clearAndFillTheField(By.cssSelector("[name=quantity]"), "1.50");
-        selectByValue(By.cssSelector("[name=sold_out_status_id]"),"2");
+        clearAndFill(By.name("quantity"), "100");
+        selectByValue(By.name("sold_out_status_id"),"1");
 
-        driver.findElement(By.cssSelector("[type=file]")).sendKeys((new File("1.jpg").getAbsolutePath()));
-        driver.findElement(By.cssSelector("[name=date_valid_from]")).sendKeys("14.12.2016");
-        driver.findElement(By.cssSelector("[name=date_valid_to]")).sendKeys("27.12.2016");
+        driver.findElement(By.cssSelector("[type=file]")).sendKeys((new File("duck.jpeg").getAbsolutePath()));
+        driver.findElement(By.name("date_valid_from")).sendKeys("23.11.2020");
+        driver.findElement(By.name("date_valid_to")).sendKeys("31.12.2020");
+
 
         // Information
         driver.findElement(By.cssSelector("[href='#tab-information']")).click();
+        wait.until(presenceOfElementLocated(By.cssSelector(".active a[href='#tab-information']")));
 
-        selectByValue(By.cssSelector("[name=manufacturer_id]"),"1");
+        selectByValue(By.name("manufacturer_id"),"1");
 
-        driver.findElement(By.cssSelector("[name=keywords]")).sendKeys("duck ducks");
-        driver.findElement(By.cssSelector("[name='short_description[en]']")).sendKeys("duck");
-        driver.findElement(By.cssSelector("[name='description[en]']")).sendKeys("new batman duck for female");
-        driver.findElement(By.cssSelector("[name='head_title[en]']")).sendKeys("new batman duck");
-        driver.findElement(By.cssSelector("[name='meta_description[en]']")).sendKeys("new duck");
+        driver.findElement(By.name("keywords")).sendKeys("goose");
+        driver.findElement(By.name("short_description[en]")).sendKeys("goose");
+        sleep(500);
+        driver.findElement(By.name("description[en]")).sendKeys("goose from country for female");
+        driver.findElement(By.name("head_title[en]")).sendKeys("goose from country");
+        driver.findElement(By.name("meta_description[en]")).sendKeys("new goose");
 
+        sleep(500);
         // Prices
         driver.findElement(By.cssSelector("[href='#tab-prices']")).click();
+        wait.until(presenceOfElementLocated(By.cssSelector(".active a[href='#tab-prices']")));
 
-        clearAndFillTheField(By.cssSelector("[name='purchase_price']"), "100");
-        selectByValue(By.cssSelector("[name=purchase_price_currency_code]"),"EUR");
+        clearAndFill(By.name("purchase_price"), "50");
+        selectByValue(By.name("purchase_price_currency_code"),"EUR");
 
-        driver.findElement(By.cssSelector("[name='prices[USD]']")).sendKeys("120");
-        driver.findElement(By.cssSelector("[name='prices[EUR]']")).sendKeys("100");
-
-        driver.findElement(By.cssSelector("#add-campaign")).click();
-
-        setDatepicker(By.cssSelector("[name*=start_date]"), "2016-12-15T00:00");
-        setDatepicker(By.cssSelector("[name*=end_date]"), "2016-12-17T23:59");
-        clearAndFillTheField(By.cssSelector("[name*=percentage]"), "10");
+        driver.findElement(By.name("prices[USD]")).sendKeys("60");
+        driver.findElement(By.name("prices[EUR]")).sendKeys("50");
 
         // сохранение
-        driver.findElement(By.cssSelector("[name=save]")).click();
-        wait.until(presenceOfElementLocated(By.cssSelector(".dataTable")));
+        driver.findElement(By.name("save")).click();
+        wait.until(presenceOfElementLocated(By.className("dataTable")));
 
         // получаем количество строк после добавления товара
         int kNew = count(By.cssSelector(".dataTable tr.row"));
 
         assertEquals(k+1, kNew);
-    }
-
-    private void assertEquals(int i, int kNew) {
-    }
-
-    public void setDatepicker(By locator, String date) {
-
-        WebElement datapiker = driver.findElement(locator);
-        JavascriptExecutor.class.cast(driver).executeScript("arguments[0].value=arguments[1]", datapiker, date);
     }
 
     public void selectByValue(By locator, String value){
@@ -88,7 +86,7 @@ public class HW_TASK8 extends TestBase{
 
     }
 
-    public void clearAndFillTheField(By locator, String value){
+    public void clearAndFill(By locator, String value){
 
         WebElement field = driver.findElement(locator);
         field.clear();
