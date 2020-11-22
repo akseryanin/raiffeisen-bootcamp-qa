@@ -23,8 +23,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf4ac5e2-1fc1-43d4-b6ac-deda4f353847" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/HW_TASK7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/HW_TASK6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/HW_TASK6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,38 +95,17 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3505747" />
   </component>
-  <component name="RunManager" selected="Gradle.FirefoxTask6">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="Gradle.HW_TASK7">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration name="FirefoxTask6" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;ru.stqa.FirefoxTask6&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
     </configuration>
     <configuration name="HW1_TASK1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -162,12 +145,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="HW_TASK6.checkProduct" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="HW_TASK7" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;ru.stqa.HW_TASK6.checkProduct&quot;" />
+        <option name="scriptParameters" value="--tests &quot;ru.stqa.HW_TASK7&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -181,12 +164,31 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="IETask6" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="HW_TASK7.newUserRegTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;ru.stqa.IETask6&quot;" />
+        <option name="scriptParameters" value="--tests &quot;ru.stqa.HW_TASK7.newUserRegTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="HW_TASK7.regist" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;ru.stqa.HW_TASK7.regist&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -202,11 +204,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.FirefoxTask6" />
-        <item itemvalue="Gradle.HW_TASK6.checkProduct" />
-        <item itemvalue="Gradle.IETask6" />
-        <item itemvalue="Gradle.HW_TASK6" />
+        <item itemvalue="Gradle.HW_TASK7" />
+        <item itemvalue="Gradle.HW_TASK7.regist" />
+        <item itemvalue="Gradle.HW_TASK7.newUserRegTest" />
         <item itemvalue="Gradle.HW1_TASK1" />
+        <item itemvalue="Gradle.HW_TASK6" />
       </list>
     </recent_temporary>
   </component>
@@ -224,7 +226,12 @@
       <workItem from="1605549230796" duration="11545000" />
       <workItem from="1605572932211" duration="8848000" />
       <workItem from="1605717060800" duration="775000" />
-      <workItem from="1605718984755" duration="20430000" />
+      <workItem from="1605718984755" duration="22325000" />
+      <workItem from="1605915948349" duration="3742000" />
+      <workItem from="1605920123477" duration="5552000" />
+      <workItem from="1605925852604" duration="1294000" />
+      <workItem from="1605927956986" duration="1129000" />
+      <workItem from="1605929110314" duration="2484000" />
     </task>
     <servers />
   </component>
@@ -248,42 +255,46 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="121" y="0" key="#Project_Structure/0.0.1280.680@0.0.1280.680" timestamp="1605038444056" />
+    <state x="388" y="184" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1606071093706">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="388" y="184" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.680@0.0.1280.680" timestamp="1606071093706" />
     <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1605718945483">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1605718945483" />
-    <state width="1237" height="164" key="GridCell.Tab.0.bottom" timestamp="1605750562238">
+    <state width="1237" height="211" key="GridCell.Tab.0.bottom" timestamp="1606071873056">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="164" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1605750562238" />
-    <state width="1237" height="164" key="GridCell.Tab.0.center" timestamp="1605750562238">
+    <state width="1237" height="211" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1606071873056" />
+    <state width="1237" height="211" key="GridCell.Tab.0.center" timestamp="1606071873056">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="164" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1605750562238" />
-    <state width="1237" height="164" key="GridCell.Tab.0.left" timestamp="1605750562238">
+    <state width="1237" height="211" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1606071873056" />
+    <state width="1237" height="211" key="GridCell.Tab.0.left" timestamp="1606071873056">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="164" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1605750562238" />
-    <state width="1237" height="164" key="GridCell.Tab.0.right" timestamp="1605750562238">
+    <state width="1237" height="211" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1606071873056" />
+    <state width="1237" height="211" key="GridCell.Tab.0.right" timestamp="1606071873056">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="164" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1605750562238" />
-    <state width="1237" height="231" key="GridCell.Tab.1.bottom" timestamp="1605750550323">
+    <state width="1237" height="211" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1606071873056" />
+    <state width="1237" height="231" key="GridCell.Tab.1.bottom" timestamp="1606070605743">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="231" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1605750550323" />
-    <state width="1237" height="231" key="GridCell.Tab.1.center" timestamp="1605750550323">
+    <state width="1237" height="231" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1606070605743" />
+    <state width="1237" height="231" key="GridCell.Tab.1.center" timestamp="1606070605743">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="231" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1605750550323" />
-    <state width="1237" height="231" key="GridCell.Tab.1.left" timestamp="1605750550323">
+    <state width="1237" height="231" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1606070605743" />
+    <state width="1237" height="231" key="GridCell.Tab.1.left" timestamp="1606070605743">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="231" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1605750550323" />
-    <state width="1237" height="231" key="GridCell.Tab.1.right" timestamp="1605750550323">
+    <state width="1237" height="231" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1606070605743" />
+    <state width="1237" height="231" key="GridCell.Tab.1.right" timestamp="1606070605743">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="231" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1605750550323" />
+    <state width="1237" height="231" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1606070605743" />
     <state x="121" y="0" key="SettingsEditor" timestamp="1605048095930">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -292,5 +303,9 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="91" y="0" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1605038420188" />
+    <state x="297" y="151" key="run.anything.popup" timestamp="1605921908682">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1605921908682" />
   </component>
 </project>

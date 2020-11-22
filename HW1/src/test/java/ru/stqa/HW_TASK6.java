@@ -43,7 +43,8 @@ public class HW_TASK6 extends TestBase{
         //проверка на зачеркнутость и серость
         assertTrue(regularPriceVM.color.red == regularPriceVM.color.blue && regularPriceVM.color.blue == regularPriceVM.color.green);
         assertTrue(regularPriceVM1.color.red == regularPriceVM1.color.blue && regularPriceVM1.color.blue == regularPriceVM1.color.green);
-        //проверка на жирность и красность
+     // tele
+    //проверка на жирность и красность
         assertTrue(campaignPriceVM.isFat);
         assertTrue(campaignPriceVM.color.blue == 0 && campaignPriceVM.color.green == 0);
         assertTrue(campaignPriceVM1.isFat);
