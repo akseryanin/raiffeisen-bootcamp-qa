@@ -4,6 +4,8 @@ import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -12,6 +14,7 @@ import java.util.Calendar;
 
 import static org.junit.Assert.*;
 import static org.openqa.selenium.support.ui.ExpectedConditions.*;
+import static org.openqa.selenium.support.ui.ExpectedConditions.presenceOfElementLocated;
 
 public class HW_TASK7 extends TestBase{
     @Test
@@ -33,7 +36,7 @@ public class HW_TASK7 extends TestBase{
 
     }
 
-    private void registration(String email,String password){
+    protected void registration(String email,String password){
         //переходим на страницу регистрации
         driver.findElement(By.cssSelector("#box-account-login a")).click();
 
@@ -49,11 +52,17 @@ public class HW_TASK7 extends TestBase{
         driver.findElement(By.name("postcode")).sendKeys("11111");
         driver.findElement(By.name("city")).sendKeys("Moscow");
         sleep(500);
-        Select country = new Select(driver.findElement(By.cssSelector("select[name=country_code]")));
-        country.selectByValue("US");
+        driver.findElement(By.cssSelector("td span.select2-selection__arrow")).click();
+        WebElement searchCountryField = driver.findElement(By.cssSelector("input.select2-search__field"));
+        searchCountryField.sendKeys("United States");
+        searchCountryField.sendKeys(Keys.ENTER);
         wait.until(textToBePresentInElementLocated(By.cssSelector("select[name=zone_code]"),"Alabama"));
-        Select zone = new Select(driver.findElement(By.cssSelector("select[name=zone_code]")));
-        zone.selectByValue("AK");
+        //Select zone = new Select(driver.findElement(By.cssSelector("select[name=zone_code]")));
+        //zone.selectByValue("AK");
+        driver.findElement(By.cssSelector("select[name=zone_code]")).click();
+        WebElement searchZonesField = driver.findElement(By.cssSelector("select[name=zone_code]"));
+        searchZonesField.sendKeys("AK");
+        searchZonesField.sendKeys(Keys.ENTER);
         sleep(500);
         driver.findElement(By.name("email")).sendKeys(email);
         driver.findElement(By.name("phone")).sendKeys("+19268472679");
@@ -67,17 +76,19 @@ public class HW_TASK7 extends TestBase{
         wait.until(presenceOfElementLocated(By.cssSelector("#box-account li:last-child")));
     }
 
-    private void login(String email,String password){
-
+    protected void login(String email,String password){
+        sleep(500);
+        wait.until(presenceOfElementLocated(By.name("email")));
         driver.findElement(By.name("email")).sendKeys(email);
         driver.findElement(By.name("password")).sendKeys(password);
         driver.findElement(By.name("login")).click();
         wait.until(presenceOfElementLocated(By.cssSelector("#box-account li:last-child")));
-
     }
 
-    private void logout(){
+    protected void logout(){
 
+        sleep(500);
+        wait.until(presenceOfElementLocated(By.cssSelector("#box-account li:last-child a")));
         driver.findElement(By.cssSelector("#box-account li:last-child a")).click();
         wait.until(presenceOfElementLocated(By.name("email")));
     }
