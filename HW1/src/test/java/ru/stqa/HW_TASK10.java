@@ -12,7 +12,7 @@ import static org.openqa.selenium.support.ui.ExpectedConditions.*;
 
 public class HW_TASK10  extends TestBase{
     @Test
-    public void checkRef(){
+    public void checkRefsInNewWindow(){
 
         loginAdmin();
         wait.until(titleIs("My Store"));
