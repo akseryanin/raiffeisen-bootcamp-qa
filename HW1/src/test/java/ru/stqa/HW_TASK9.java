@@ -13,6 +13,8 @@ import static org.openqa.selenium.support.ui.ExpectedConditions.*;
 
 public class HW_TASK9 extends TestBase{
 
+    //иногда так случается, что клик не происходит в браузере, а иногда кликает
+    //скорее всего JS скрипт не привязывается к кнопке
     @Test
     public void checkAddDeleteProducts(){
 
@@ -51,6 +53,7 @@ public class HW_TASK9 extends TestBase{
             wait.until(elementToBeClickable(By.cssSelector("button[name=remove_cart_item]")));
             driver.findElement(By.cssSelector("button[name=remove_cart_item]")).click();
 
+            //обновление таблицы (она исчезает)
             wait.until(stalenessOf(table));
             // не проверяем после удаления последнего элемента, так как таблицы нет
             if (i != rows - 1){
