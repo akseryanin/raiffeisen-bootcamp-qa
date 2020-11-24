@@ -20,7 +20,7 @@ public class HW_TASK7 extends TestBase{
     @Test
     public void regist(){
 
-        driver.get("https://litecart.stqa.ru/en/");
+        driver.get("http://localhost/litecart/en/");
         Calendar calendar = Calendar.getInstance();
         int hour = calendar.get(calendar.HOUR_OF_DAY);
         int minute = calendar.get(calendar.MINUTE);

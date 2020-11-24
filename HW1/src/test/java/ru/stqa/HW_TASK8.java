@@ -40,7 +40,7 @@ public class HW_TASK8 extends TestBase{
         clearAndFill(By.name("quantity"), "100");
         selectByValue(By.name("sold_out_status_id"),"1");
 
-        driver.findElement(By.cssSelector("[type=file]")).sendKeys((new File("duck.jpeg").getAbsolutePath()));
+        driver.findElement(By.cssSelector("[type=file]")).sendKeys((new File("resources/duck.jpeg").getAbsolutePath()));
         driver.findElement(By.name("date_valid_from")).sendKeys("23.11.2020");
         driver.findElement(By.name("date_valid_to")).sendKeys("31.12.2020");
 

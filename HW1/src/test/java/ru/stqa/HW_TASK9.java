@@ -20,7 +20,7 @@ public class HW_TASK9 extends TestBase{
 
         for (int i = 0; i < 3; ++i){
 
-            driver.get("https://litecart.stqa.ru/en/");
+            driver.get("http://localhost/litecart/en/");
             wait.until(titleContains("Online Store"));
             WebElement product = driver.findElement(By.cssSelector("#box-most-popular li.product:first-child"));
             String name = product.findElement(By.cssSelector(".name")).getAttribute("textContent");
