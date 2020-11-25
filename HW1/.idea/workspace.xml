@@ -22,13 +22,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf4ac5e2-1fc1-43d4-b6ac-deda4f353847" name="Default Changelist" comment="Задание 13">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/HW_TASK10.java" afterDir="false" />
+    <list default="true" id="cf4ac5e2-1fc1-43d4-b6ac-deda4f353847" name="Default Changelist" comment="Задание 14">
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/HW_TASK11.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/duck.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/HW_TASK7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/HW_TASK7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/HW_TASK8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/HW_TASK8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/HW_TASK9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/HW_TASK9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +93,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3505747" />
   </component>
-  <component name="RunManager" selected="Gradle.HW_TASK10.checkRef">
+  <component name="RunManager" selected="Gradle.HW_TASK11.checkLogs">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -146,12 +143,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="HW_TASK7" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="HW_TASK10.checkRefsInNewWindow" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;ru.stqa.HW_TASK7&quot;" />
+        <option name="scriptParameters" value="--tests &quot;ru.stqa.HW_TASK10.checkRefsInNewWindow&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -165,12 +162,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="HW_TASK8" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="HW_TASK11.checkBrowserLogs" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;ru.stqa.HW_TASK8&quot;" />
+        <option name="scriptParameters" value="--tests &quot;ru.stqa.HW_TASK11.checkBrowserLogs&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -184,12 +181,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="HW_TASK9.checkAddDeleteProducts" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="HW_TASK11.checkLogs" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;ru.stqa.HW_TASK9.checkAddDeleteProducts&quot;" />
+        <option name="scriptParameters" value="--tests &quot;ru.stqa.HW_TASK11.checkLogs&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -205,11 +202,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.HW_TASK10.checkRef" />
-        <item itemvalue="Gradle.HW_TASK7" />
+        <item itemvalue="Gradle.HW_TASK11.checkLogs" />
         <item itemvalue="Gradle.HW_TASK10" />
-        <item itemvalue="Gradle.HW_TASK8" />
-        <item itemvalue="Gradle.HW_TASK9.checkAddDeleteProducts" />
+        <item itemvalue="Gradle.HW_TASK10.checkRefsInNewWindow" />
+        <item itemvalue="Gradle.HW_TASK11.checkBrowserLogs" />
+        <item itemvalue="Gradle.HW_TASK10.checkRef" />
       </list>
     </recent_temporary>
   </component>
@@ -234,7 +231,7 @@
       <workItem from="1605927956986" duration="1129000" />
       <workItem from="1605929110314" duration="28366000" />
       <workItem from="1606173713972" duration="3462000" />
-      <workItem from="1606224757440" duration="4365000" />
+      <workItem from="1606224757440" duration="7480000" />
     </task>
     <task id="LOCAL-00001" summary="задание 12">
       <created>1606088900736</created>
@@ -292,7 +289,21 @@
       <option name="project" value="LOCAL" />
       <updated>1606176249470</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Задание 14">
+      <created>1606243434399</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1606243434399</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Задание 14">
+      <created>1606243483537</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1606243483537</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -315,7 +326,8 @@
     <MESSAGE value="Задание 11, ошибка с firefox" />
     <MESSAGE value="з12" />
     <MESSAGE value="Задание 13" />
-    <option name="LAST_COMMIT_MESSAGE" value="Задание 13" />
+    <MESSAGE value="Задание 14" />
+    <option name="LAST_COMMIT_MESSAGE" value="Задание 14" />
   </component>
   <component name="WindowStateProjectService">
     <state x="121" y="0" key="#Project_Structure" timestamp="1605038444056">
@@ -334,22 +346,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1605718945483" />
-    <state width="1237" height="213" key="GridCell.Tab.0.bottom" timestamp="1606243319753">
+    <state width="1237" height="213" key="GridCell.Tab.0.bottom" timestamp="1606266568266">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="213" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1606243319753" />
-    <state width="1237" height="213" key="GridCell.Tab.0.center" timestamp="1606243319753">
+    <state width="1237" height="213" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1606266568266" />
+    <state width="1237" height="213" key="GridCell.Tab.0.center" timestamp="1606266568266">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="213" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1606243319753" />
-    <state width="1237" height="213" key="GridCell.Tab.0.left" timestamp="1606243319753">
+    <state width="1237" height="213" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1606266568266" />
+    <state width="1237" height="213" key="GridCell.Tab.0.left" timestamp="1606266568265">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="213" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1606243319753" />
-    <state width="1237" height="213" key="GridCell.Tab.0.right" timestamp="1606243319753">
+    <state width="1237" height="213" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1606266568265" />
+    <state width="1237" height="213" key="GridCell.Tab.0.right" timestamp="1606266568266">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="213" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1606243319753" />
+    <state width="1237" height="213" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1606266568266" />
     <state width="1237" height="228" key="GridCell.Tab.1.bottom" timestamp="1606242139883">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -370,10 +382,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1605048095930" />
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1606176252492">
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1606243488609">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1606176252492" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1606243488609" />
     <state x="458" y="254" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606170000302">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
