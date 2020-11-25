@@ -16,7 +16,6 @@ public class HW_TASK11 extends TestBase{
         driver.get("http://localhost/litecart/admin/?app=catalog&doc=catalog&category_id=1");
 
         int rows = driver.findElements(By.cssSelector(".dataTable tr.row")).size();
-
         ArrayList<LogEntry> logs = new ArrayList<>();
 
         for (int i = 3; i <= rows + 1; ++i){
