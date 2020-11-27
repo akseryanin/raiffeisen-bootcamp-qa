@@ -10,7 +10,6 @@ public class ProductTest extends TestBase {
         app.open();
         app.addProductsToCart(3);
         app.goToCart();
-        app.removeAddedProducts(app.getAddedProductsQuantity());
-
+        app.removeProducts(app.getAddedProductsQuantity());
     }
 }
