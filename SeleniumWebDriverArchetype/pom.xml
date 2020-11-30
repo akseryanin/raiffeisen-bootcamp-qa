@@ -18,6 +18,7 @@
     <maven.compiler.target>1.8</maven.compiler.target>
     <junit.version>4.11</junit.version>
     <selenium.version>3.141.59</selenium.version>
+    <cucumber.version>6.8.1</cucumber.version>
   </properties>
 
   <pluginRepositories>
@@ -45,6 +46,16 @@
       <groupId>org.seleniumhq.selenium</groupId>
       <artifactId>selenium-java</artifactId>
       <version>${selenium.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>io.cucumber</groupId>
+      <artifactId>cucumber-java8</artifactId>
+      <version>${cucumber.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>io.cucumber</groupId>
+      <artifactId>cucumber-junit</artifactId>
+      <version>${cucumber.version}</version>
     </dependency>
   </dependencies>
 
